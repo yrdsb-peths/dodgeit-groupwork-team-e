@@ -23,3 +23,4 @@ public class Bomb extends Actor
         }
     }
 }
+//be sure to upload sad face image and connect to hero.java and bomb.java
