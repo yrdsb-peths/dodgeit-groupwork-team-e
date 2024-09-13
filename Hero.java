@@ -1,6 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-
+//yes
 public class Hero extends Actor
 {
     boolean atTop= true;
