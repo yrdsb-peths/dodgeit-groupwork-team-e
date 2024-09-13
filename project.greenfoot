@@ -1,11 +1,14 @@
 #Greenfoot project file
 class.bomb.image=bomb.png
+dependency1.from=MyWorld
+dependency1.to=bomb
+dependency1.type=UsesDependency
 editor.fx.0.height=841
 editor.fx.0.width=1315
-editor.fx.0.x=100
-editor.fx.0.y=273
+editor.fx.0.x=149
+editor.fx.0.y=293
 height=551
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=2
 project.charset=UTF-8
 publish.hasSource=false
