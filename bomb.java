@@ -6,12 +6,12 @@ public class bomb extends Actor
     public void act()
     {
         move(moveSpeed);
-        if(getX() <= 0) {
-            resetBomb();
-            moveSpeed -= 0.25;
-        }else if(getX() >= 600){
+        if(getX() >= 590) {
             resetBomb2();
             moveSpeed += 0.25;
+        }else if(getX() <= 0){
+            resetBomb();
+            moveSpeed -= 0.25;
         }
     }
     public void resetBomb() {

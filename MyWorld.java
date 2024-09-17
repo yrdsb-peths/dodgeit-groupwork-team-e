@@ -11,7 +11,7 @@ public class MyWorld extends World
         
         bomb b2 = new bomb();
         b2.moveSpeed = 5;
-        addObject(b2, 50, 100);
+        addObject(b2, 0, 100);
         Hero hero = new Hero();
         addObject(hero,300,100);
     }
