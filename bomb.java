@@ -10,9 +10,6 @@ public class bomb extends Actor
             resetBomb();
             moveSpeed -= 0.25;
         }
-//        if(isTouching(Hero.class)) {
-//            getWorld().removeObject(this);
-//        }
     }
     public void resetBomb() {
         int num = Greenfoot.getRandomNumber(2);
