@@ -9,14 +9,26 @@ public class bomb extends Actor
         if(getX() <= 0) {
             resetBomb();
             moveSpeed -= 0.25;
+        }else if(getX() >= 600){
+            resetBomb2();
+            moveSpeed += 0.25;
         }
     }
     public void resetBomb() {
         int num = Greenfoot.getRandomNumber(2);
         if(num == 0) {
-            setLocation(600, 100);
+            setLocation(550, 100);
         }else {
-            setLocation(600, 300);
+            setLocation(550, 300);
+        }
+        
+    }
+    public void resetBomb2() {
+        int num2 = Greenfoot.getRandomNumber(2);
+        if(num2 == 0) {
+            setLocation(50, 100);
+        }else {
+            setLocation(50, 300);
         }
         
     }
