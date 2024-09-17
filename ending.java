@@ -1,6 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class Bomb extends Actor
+public class Ending extends World
 {
     public void act()
     {
